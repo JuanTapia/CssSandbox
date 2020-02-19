@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float & Align</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.4em;
         }
+        .clr {
+            clear: both;
+        }
         .container {
-            max-width: 1000px;
+            max-width: 960px;
             margin: 30px auto;
             /* In the margin, the fist number is for the top and bottom, and the second number is for the left and right, evenly */
             /* To make your website not have the scroll bar on the bottom, put max-width. */
@@ -19,7 +25,15 @@
             background: #f4f4f4;
             border: 2px solid #333;
             padding: 20px;
-            margin: 10px;
+            margin: 15px;
+        }
+        #box-2 {
+            float: left;
+            width: 63%;
+        }
+        #box-3 {
+            float: right;
+            width: 30%;
         }
     </style>
 </head>
@@ -35,6 +49,11 @@
         </div>
         <div id="box-3" class="box">
             <h3>Heading 3</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur molestias quas perferendis aspernatur consequuntur! Natus velit dolorum quasi atque sunt, officiis quo repellat ab, cupiditate iure odit! Nisi culpa debitis amet quasi molestias recusandae voluptatibus obcaecati deleniti veritatis. Ut?</p>
+        </div>
+        <div class="clr"></div>
+        <div id="box-4" class="box">
+            <h3>Heading 4</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur molestias quas perferendis aspernatur consequuntur! Natus velit dolorum quasi atque sunt, officiis quo repellat ab, cupiditate iure odit! Nisi culpa debitis amet quasi molestias recusandae voluptatibus obcaecati deleniti veritatis. Ut?</p>
         </div>
     </div>
