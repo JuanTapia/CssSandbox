@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & Block</title>
+    <style>
+        li {
+            display: inline;
+        }
+        li a {
+            padding-right: 20px;
+        }
+        img {
+            /* you have to use display: block ; so that the margin auto will work*/
+            display: block;
+            margin: auto;
+        }
+        .box {
+            /* The box-sizing, the width, and the display are necesities */
+            box-sizing: border-box;
+            width: 30%;
+            display: inline-block;
+            background: #f4f4f4;
+            border: 2px #ddd solid;
+            margin: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Buisness</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+    <br>
+    <br>
+    <img src="wolf.jpg" alt="Mt image">
+    <br>
+    <br>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam odit laborum vel dolorum eius nihil esse aperiam eligendi. Error saepe veniam quaerat aspernatur corrupti repellat esse suscipit ipsam adipisci. Facere quaerat facilis architecto eius quo adipisci ea laboriosam! Voluptatum?</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam odit laborum vel dolorum eius nihil esse aperiam eligendi. Error saepe veniam quaerat aspernatur corrupti repellat esse suscipit ipsam adipisci. Facere quaerat facilis architecto eius quo adipisci ea laboriosam! Voluptatum?</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quam odit laborum vel dolorum eius nihil esse aperiam eligendi. Error saepe veniam quaerat aspernatur corrupti repellat esse suscipit ipsam adipisci. Facere quaerat facilis architecto eius quo adipisci ea laboriosam! Voluptatum?</p>
+    </div>
+</body>
+</html>
