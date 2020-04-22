@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Css selectors</title>
+    <title>Selectors</title>
     <style>
-    #red-heading{
-        color: red;
-    }
-    /* h2{
-        color: royalblue;
-    } */
-    .blue-heading{
-        color: royalblue;
+        /* Body Styling */
+        body{
+            background-color: black;
+        }
+        /* . is for Classes */
+        .primary-heading{
+            color: brown;
+        }
+        /* # is for id */
+        #welcome {
+         background-color: cadetblue;
+        }
+        /* Multiples selectors */
+        #welcome, #about {
+            border: 1px solid #ccc;
+            padding:10px;
+            margin-bottom: 5px;
+        }
+        /* Nested Selectors */
+        #about h2 {
+            font-size: 30px;
+        }
+        #about{
+            /* background-color: blanchedalmond; */
+            color: blanchedalmond;
+        }
 
-    }
-    #welcome {
-        background-color: #f4f4f4;
-    }
-    /* multiple selectors */
-    #welcome, #about {
-        border: 1px solid #ccc;
-        padding: 10px;
-       margin-bottom: 5px;
-    }
     </style>
 </head>
 <body>
     <div id="welcome">
-    <h2 id="red-heading">Welcome</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui nesciunt nisi repellat eaque, culpa reprehenderit facere incidunt aperiam voluptate.</p>
+        <h2 class="primary-heading">welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo ab neque eos sunt aperiam ad eveniet quas libero delectus?</p>
     </div>
     <div id="about">
-        <h2 class="blue-heading">About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum cupiditate debitis. Quae autem fuga at molestiae nisi aut culpa?</p>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo ab neque eos sunt aperiam ad eveniet quas libero delectus?</p>
     </div>
 </body>
 </html>
