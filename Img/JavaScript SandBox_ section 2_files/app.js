@@ -1,0 +1,5 @@
+console.log({a:1, b:2})
+console.table({a:1, b:2})
+console.clear()
+console.warn('This is waning')
+console.error('This is an error')

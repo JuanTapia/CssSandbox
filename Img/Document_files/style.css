@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding: 20px 0;
+}
+p{
+    margin: 10px 0;
+}
+/* ******************************** */
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+#navbar{
+    background: #333;
+    color: aliceblue;
+    overflow: auto;
+}
+#navbar a{
+    color: aliceblue;
+}
+#navbar h1{
+    float: left;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    display: block;
+    float: left;
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    color: brown;
+    background: #444;
+}
+
+
+
+
+
